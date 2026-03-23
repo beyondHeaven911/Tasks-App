@@ -15,7 +15,19 @@
     <h1 class="body_title">Create A Task</h1>
     <p class="body_inputTitle">What are you focusing on?</p>
 
-    <div class="footer">
+    <div class="task_details">
+        <input placeholder="Name of the task" class="task_name">
+        <br>
+        <div class="selectors">
+               <input type="radio" name="category" id="work" value="work" checked>
+               <label for="work" class="selector_label">Work</label>
+               
+               <input type="radio" name="category" id="life" value="life">
+               <label for="life" class="selector_label">Life</label>
+        </div>
+    </div>    
+
+<div class="footer">
         <a href="index.html"><img src="Images/Home Inactive.png" class="footer_home"></a>
         <a href="newtask.html"><img src="Images/Add Active.png" class="footer_add"></a>
         <a href="taskpage.html"><img src="Images/List Inactive.png"></a>
