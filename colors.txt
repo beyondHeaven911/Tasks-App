@@ -1,0 +1,5 @@
+primary #6200EE
+secondary #9575CD
+tertiary #A7FFEB
+neutral #E0EFFF
+neutral 2 #F8F9FA
