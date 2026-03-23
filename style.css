@@ -54,6 +54,9 @@ body{
 }
 
 .body_welcome{
+    position: relative;
+    left: 50%;
+    transform: translate(-55%);
     font-size: 35px;
     font-family: syne;
     font-weight: 800;
