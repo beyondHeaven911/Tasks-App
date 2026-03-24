@@ -24,6 +24,8 @@
                
                <input type="radio" name="category" id="life" value="life">
                <label for="life" class="selector_label">Life</label>
+
+               <div class="slider"></div>
         </div>
     </div>    
 
@@ -32,5 +34,18 @@
         <a href="newtask.html"><img src="Images/Add Active.png" class="footer_add"></a>
         <a href="taskpage.html"><img src="Images/List Inactive.png"></a>
         <a href="settings.html"><img src="Images/Settings Inactive.png" class="footer_settings"></a>
-    </div>
+</div>
+
+<script>
+    const inputs = document.querySelectorAll('.selectors input');
+    const slider = document.querySelector('.slider');
+    inputs.forEach(input => {
+        input.addEventListener('change', () => {
+            slider.style.transform = input.value === 'life'
+                ? 'translateX(calc(100% + 0px))'
+                : 'translateX(0)';
+        });
+    });
+</script>
+
 </body>
