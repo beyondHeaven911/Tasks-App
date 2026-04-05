@@ -52,48 +52,6 @@ body{
     margin-bottom: 0;
 }
 
-.body_welcome{
-    position: relative;
-    font-size: 35px;
-    font-family: syne;
-    font-weight: 800;
-    text-align: center;
-    margin-top: 60px;
-    margin-left: 0px;
-    margin-bottom: 0;
-}
-
-.body_instructions{
-    margin: 0;
-    margin-top: 40px;
-    font-family: Syne;
-    font-size: 14px;
-    color: #888;
-    text-align: center;
-}
-
-.body_addTaskbtn{
-    margin-top: 40px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    font-family: sans-serif;
-    height: 60px;
-    width: 60px;
-    border-radius: 25px;
-    border: none;
-    background-image: linear-gradient(to right, #6200EE, #9575CD);;
-    color: white;
-    font-size: 24px;
-    transition: 0.25s;
-}
-
-.body_addTaskbtn:hover{
-    box-shadow: 0px 0px 18px #6300ee60;
-    transition: 0.25s;
-    cursor: pointer;
-}
-
 .footer {
     position: fixed;
     bottom: 0;
